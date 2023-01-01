@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seaside Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header><h1>Seaside Hotel</h1></header>
+   
+    
+    <section>
+        <article id="hotelText">Welcome to paradise on earth</article>
+    
+    
+        <section id="Pages">
+            <fieldset id="fieldset1">
+             <ul>
+               <li><a href="index.HTML">Startsidan</a></li>
+               <li> <a href="rooms.HTML">Rooms</a></li>
+                <li><a href="contact.HTML">Contact us</a></li>
+                <li><a href="booking.HtML">Booking</a></li>
+            </ul>
+            </fieldset>
+        </section>
+      
+
+
+       
+        <fieldset id="roombooking"> 
+            <legend>Booking:</legend>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="First and last name" > 
+             <br>
+
+            <label for="email">E-post:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email" required> 
+            <br>
+            <label for="mobilenumber">Enter Phonenumber</label>
+            <br>
+            <input type="number" name="Phonenumber" id="mobilenumber" placeholder="+46700000000">
+            <br>
+            <label for="customer-status">Are you a member:</label>
+            <br>
+            <select name="customer-status" id="customer-status">
+                <option value="" disabled selected >Please select..
+                <option value="is-customer">Yes</option> 
+                <option value="is-customer">No</option> 
+            </select>
+
+
+        
+            <br><br>
+            <input type="radio" name="room" id="room1" required>
+            <label for="room1">Single room</label>
+            <br>
+            <input type="radio" name="room" id="room2">
+            <label for="room2">Double room</label>
+            <br>
+            <input type="radio" name="room" id="room3">
+            <label for="room3">Superior room</label>
+            <br>
+            <input type="radio" name="room" id="room4">
+            <label for="room4">Executive Suite</label>
+    
+        <br><br>
+        <label for="Fromdate">From</label>
+        <br>
+        <input type="date" required id="Fromdate">
+        <br>
+        <label for="toDate">To</label>
+        <br>
+        <input type="date" required id="toDate">
+        
+        <br><br>
+
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Special requests"></textarea>
+        <br>
+        <input type="submit" value="Send">
+        </fieldset>
+
+       
+    </section>
+    <script src="code.JS"></script>
+    <footer>Copyright</footer>
+</body>
+</html>
