@@ -10,8 +10,18 @@ images.forEach(function(image) {
 });
 
 
-// const imageEl = document.getElementById("room1","room2","room3","room4")
 
-// imageEl.addEventListener('click',function(){
-// window.location.href = "http://127.0.0.1:5500/booking.HtML"
-// });
+  function toggleMenu() {
+  
+    var menu = document.querySelector('.menu');
+
+   
+    if (menu.style.display === "none") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  }
+
+
+
