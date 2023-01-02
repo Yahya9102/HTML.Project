@@ -194,7 +194,7 @@ button{
 }
    
 header{
-   font-size: 35px;
+   font-size: 30px;
    z-index: 2;
 }
   
@@ -206,7 +206,7 @@ body{
 
 #hotelText{
    font-size: 20px;
-   left: -20%;
+   left: -15%;
 }
 
 #Pages{
@@ -225,6 +225,10 @@ body{
   
 }
 
+
+#video{
+   top: 15%;
+}
 
 
 
