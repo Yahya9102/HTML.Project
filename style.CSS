@@ -177,7 +177,8 @@ a {
 
 button{
    display: none;
-   background-color: rgb(147, 147, 184);
+   background: none;
+   border: 0;
 }
 
 
@@ -224,6 +225,9 @@ body{
   
 }
 
+
+
+
 #contact{
    top: 32%;
 }
@@ -235,7 +239,7 @@ body{
 
 #roombooking{
   
-   top: 46%;
+   top: 53%;
    left: 1%;
    z-index: 2;
    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
