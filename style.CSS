@@ -189,6 +189,8 @@ button{
 
 
 
+
+
 @media screen and (max-width: 800px){
 
 button{
@@ -221,7 +223,7 @@ body{
 #hotelText{
    position: relative;
    font-size: 20px;
-   left: -15%;
+   left: -10%; 
    top: 18%;
 }
 
@@ -266,17 +268,26 @@ body{
 
 
 
+
+#whitecircle{
+   background-color: aliceblue;
+}
+
+
 #contact{
-   font-size: 15px;
+   
+   font-size: 20px;
+   font-weight: bold;
    top: 32%;
    right: 15%;
    z-index: 2;
 }
 
 #contactInfo{
-   font-size: 12px;
+   
+   font-size: 30px;
    bottom: 100%;
-   right: 10%;
+   right: 4%;
    z-index: 2;
 }
 
