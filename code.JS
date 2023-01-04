@@ -17,9 +17,10 @@ images.forEach(function(image) {
   function toggleMenu() {
   
 
-    var menu = document.querySelector('.menu');
-   const opEl = document.getElementById('linkbackground')
+  var menu = document.querySelector('.menu');
+  const opEl = document.getElementById('linkbackground')
 
+   
    
     if (menu.style.display === "none") {
       menu.style.display = "block";
