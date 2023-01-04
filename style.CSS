@@ -100,7 +100,6 @@ article{
 
  #video {
     display: flex;
-    font-size: 50px;
     position: absolute;
     top: 5%;
     right: 5%;
@@ -340,6 +339,8 @@ body{
 #video{
    top: 25%;
    left: 5%;
+   width: 23%;
+  
 }
 
 
