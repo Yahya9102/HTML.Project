@@ -1,7 +1,7 @@
 
 
 const images = document.querySelectorAll('#room1, #room2, #room3, #room4');
-const url = 'http://127.0.0.1:5500/booking.HtML';
+const url = 'https://seasidehotel.netlify.app/booking';
 
 images.forEach(function(image) {
   image.addEventListener('click', function() {
