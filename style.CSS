@@ -240,7 +240,12 @@ button{
    z-index: 4;
 }
 
-
+#confirmation{
+   display: flex;
+   position: absolute;
+   right: 5%;
+   top: 12%;
+}
 
 
 @media screen and (max-width: 800px){
@@ -376,6 +381,11 @@ body{
    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
+#confirmation{
+   font-size: 10px;
+   left: 5%;
+   top: 50%;
+}
 
 footer{
    position: fixed;
