@@ -31,17 +31,17 @@ images.forEach(function(image) {
     
     }
     
- 
-
    }
 
+
+
+ 
 
 
    document.querySelector('input[type="submit"]').addEventListener('click', function(event) {
     event.preventDefault();  
     document.getElementById('roombooking').style.display = 'none';
   
-   
     document.getElementById('confirmation').style.display = 'block';
   
     
