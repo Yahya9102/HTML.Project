@@ -18,17 +18,22 @@ images.forEach(function(image) {
   
 
   var menu = document.querySelector('.menu');
-  const opEl = document.getElementById('linkbackground')
+  const opEl = document.getElementById('linkbackground');
+  const linkbackground = document.getElementById('linkbackground');
 
    
    
     if (menu.style.display === "none") {
       menu.style.display = "block";
       opEl.style.opacity = "60%";
+      linkbackground.style.display = "block";
+
      
     } else {
       menu.style.display = "none";
       opEl.style.opacity = "0%";
+      linkbackground.style.display ="none";
+     
     
     }
     
