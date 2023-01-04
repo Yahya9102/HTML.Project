@@ -11,17 +11,40 @@ images.forEach(function(image) {
 
 
 
+
+
+
   function toggleMenu() {
   
+
     var menu = document.querySelector('.menu');
+   const opEl = document.getElementById('linkbackground')
 
    
     if (menu.style.display === "none") {
       menu.style.display = "block";
+      opEl.style.opacity = "60%";
+     
     } else {
       menu.style.display = "none";
+      opEl.style.opacity = "0%";
+    
     }
-  }
+    
+    
+
+  
+ 
+
+   }
+
+
+
+
+
+
+
+
 
 
 

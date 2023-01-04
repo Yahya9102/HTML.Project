@@ -9,42 +9,46 @@
 </head>
 <body>
 
-    <header><h1>Seaside Hotel</h1></header>
+    <header id="mobile"><h1 id="topp">Seaside Hotel</h1></header>
    
     
     <section>
         <article id="hotelText">Welcome to paradise on earth</article>
     
     
+        <button onclick="toggleMenu()"><img src="Media/Icon.png" alt="" width="60"></button>
+
         <section id="Pages">
-            <fieldset id="fieldset1">
-                <button onclick="toggleMenu()"><img src="Media/Icon.png" alt="" width="60"></button>
-             <ul class="menu">
-               <li><a href="index.HTML">Startsidan</a></li>
-               <li> <a href="rooms.HTML">Rooms</a></li>
-                <li><a href="contact.HTML">Contact</a></li>
-                <li><a href="booking.HtML">Booking</a></li>
-            </ul>
-            </fieldset>
-        </section>
+            <section id="linkbackground">
+         <ul class="menu">
+           <li><a href="index.HTML">Startsidan</a></li>
+           <li> <a href="rooms.HTML">Rooms</a></li>
+            <li><a href="contact.HTML">Contact</a></li>
+            <li><a href="booking.HtML">Booking</a></li>
+        </ul>
+    </section>
+    
+</section>
 
 
 
 
-        <section id="whitecircle">
           
             <fieldset id="contact">
+                
                 <legend id="contactInfo">Contact</legend>
-                <ul>
-               <li> <a href="tel:+4670000000">Call us</a></li>
-               <li><a href="mailto:info@hotmail.com">Email us</a></li>
+                <ul >
+               <li> <a href="tel:+4670000000">0700000000</a></li>
+               <li><a href="mailto:info@hotmail.com">info@seaside.com</a></li>
                 <li><a href="http://facebook.com" target="_blank">Facebook</a></li>
                <li> <a href="http://instagram.com">Instagram</a></li>
+                <li><a href="https://goo.gl/maps/LDpWVM8fJ9HnfXdU9">Sveavägen 6B <br> Stockholm </a></li>
             </ul>
+        
             </fieldset>
-        </section>
-
-
+      
+       
+            <a href="#topp" id="backtotopp">Back to the top</a>
     </section>
        
     
@@ -58,8 +62,9 @@
     
 
 
-
-        <footer>Copyright</footer>
+    
+        <footer>
+            Copyright</footer>
     <script src="code.JS"></script>
 </body>
 </html>

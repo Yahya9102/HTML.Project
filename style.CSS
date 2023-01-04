@@ -2,8 +2,6 @@
 
 
 
-
-
 * {
     padding: 0;
     margin: 0;
@@ -34,13 +32,17 @@ body{
    
     color: rgb(2, 1, 3);
     z-index: 1;
+    display: flex;
+    position: absolute;
+    left: 10%;
   
-  
+
  }
 
  h1{
    font-size: 7rem;
    width: fit-content;
+   
  }
  footer {
    color: aliceblue;
@@ -90,7 +92,7 @@ article{
     display: flex;
     font-size: 2rem;
     font-style: italic;
-    position: fixed;
+    position: absolute;
     top: 27%;
     left: -11%;
     z-index: 1;
@@ -116,21 +118,28 @@ a {
 }
 
  #Pages {
+   
    font-family: var(--font3);
-   font-style: oblique;
+   font-weight: bolder;
     display: flex;
-    font-size: 20px;
+    font-size: 22px;
     position: absolute;
-    bottom: 15%;
-    left: 2%;
+    bottom: 50%;
+    left: 30%;
     z-index: 1;
+    text-shadow: 2px 2px 4px rgba(226, 213, 213, 0.5);
     
  }
 
  #fieldset1{
+
+   display: flex;
+   position: absolute;
     border: 0;
+    
  }
  
+
 
  legend{
    font-family: var(--font3);
@@ -138,42 +147,52 @@ a {
    font-weight: bold;
  }
 
+#address{
+   font-family: var(--font3);
+}
+
  #contactInfo{
    font-family: var(--font3);
    font-size: 35px;
    font-weight: bolder;
    position: absolute;
    bottom: 100%;
-   right: 7%;
+   right: 40%;
  }
 
  #contact{
    font-family: var(--font3);
+   background-color: rgb(127,141,150);
    font-size: 25px;
-   font-style: italic;
+   font-style: bold;
    display: block;
    border: 0;
    width: fit-content;
    position: absolute;
-   right: 10.5%;
-   top: 35%;
+   right: 15%;
+   top: 29%;
+   z-index: 2;
+   
  }
 
  
-
+#booking-background{
+   width: fit-content;
+   height: fit-content;
+   background-color: rgb(127,141,150);
+}
 
 
 #roombooking{
   
    font-family: var(--font3);
    font-weight: bold;
-   z-index: 1;
+   
    border: 0;
- 
    position: absolute;
    top: 1%;
    right: 3%;
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   text-shadow: 2px 2px 4px rgba(242, 234, 234, 0.5);
 
 }
 
@@ -188,20 +207,73 @@ button{
 
 
 
+#linkbackground{
+   background-color: rgb(255, 255, 255);
+   width: 170px;
+   height: 170px;
+   display: flex;
+   position: fixed;
+   top: 40%;
+   left: 5%;
+   border-radius: 50%;
+   opacity: 50%;
+
+}
+
+
+
+
+.menu{
+   position: absolute;
+   left: 30%;
+   top: 17%;
+}
+
+
+
+
+#backtotopp{
+   display: flex;
+   position: fixed;
+   bottom: 0%;
+   right: 8%;
+   background-color: rgb(127,141,150);
+   z-index: 4;
+}
+
 
 
 
 @media screen and (max-width: 800px){
 
+#backtoptopp{
+   position: relative;
+  
+   
+}
+
+   
 button{
    display: block;
    display: flex;
-   position: relative;
-   bottom: 15%;
-   right: 25%;
+   position: fixed;
+   top: 1%;
+   right: 1%;
+   z-index: 1;
   
 }
    
+
+header {
+   font-family: var(--font3);
+   color: rgb(2, 1, 3);
+   z-index: 1;
+   display: flex;
+   position: relative;
+   left: 2%;
+ width: fit-content;
+
+}
 
 
 
@@ -209,7 +281,7 @@ h1{
   
    font-size: 40px;
    z-index: 2;
-   width: fit-content;
+   
 }
   
 
@@ -221,14 +293,17 @@ body{
 }
 
 #hotelText{
-   position: relative;
+   position: absolute;
    font-size: 20px;
-   left: -10%; 
+   left: 5%; 
    top: 18%;
 }
 
 #Pages{
-   top: 30%;
+   display: flex;
+   position: absolute;
+   top: 46%;
+   left: 13%;
 }
 
 
@@ -238,8 +313,8 @@ body{
    position: absolute;
   flex-direction: column;
   width: 30%;
-  left: 71%;
-  bottom: 5%;
+  left: 5%;
+  top: 30%;
   height: fit-content;
   
   
@@ -263,47 +338,47 @@ body{
 
 
 #video{
-   top: 15%;
+   top: 25%;
+   left: 5%;
 }
 
 
-
-
-#whitecircle{
-   background-color: aliceblue;
+#Pages{
+   top: 75%;
+   left: 25%;
 }
 
 
 #contact{
    
-   font-size: 20px;
+   font-size: 15px;
    font-weight: bold;
    top: 32%;
-   right: 15%;
+   left: 1%;
    z-index: 2;
+
+  
 }
 
 #contactInfo{
    
-   font-size: 30px;
+   font-size: 25px;
    bottom: 100%;
-   right: 4%;
+   left: 5%;
    z-index: 2;
 }
 
 #roombooking{
-  
-   top: 53%;
+   top: 30%;
    left: 1%;
-   z-index: 2;
    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 
 footer{
    position: fixed;
-   bottom: 0;
-   right: 0;
+   bottom: 5%;
+   right: 8%;
 }
 
 .menu{
@@ -312,8 +387,20 @@ footer{
    flex-direction: column;
    position: absolute;
    bottom: 65%;
-   left: 60%;
+   left: 25%;
 }
+
+
+
+#linkbackground{
+  
+   top: 30%;
+   left: 50%;
+   border-radius: 50%;
+   opacity: 50%;
+   z-index: 4;
+}
+
 
 
 }

@@ -9,24 +9,26 @@
 </head>
 <body>
 
-    <header><h1>Seaside Hotel</h1></header>
+    <header id="mobile"><h1 id="topp">Seaside Hotel</h1></header>
    
 
     <section id="top">
         <article id="hotelText">Welcome to paradise on earth</article>
     
         <section id="Pages">
-           
-            <fieldset id="fieldset1">
-                <button onclick="toggleMenu()"><img src="Media/Icon.png" alt="" width="40"></button>
-             <ul class="menu">
-               <li><a href="index.HTML">Startsidan</a></li>
-               <li> <a href="rooms.HTML">Rooms</a></li>
-                <li><a href="contact.HTML">Contact</a></li>
-                <li><a href="booking.HtML">Booking</a></li>
-            </ul>
-            </fieldset>
-        </section>
+            
+            <button onclick="toggleMenu()"><img src="Media/Icon.png" alt="" width="60"></button>
+            <section id="linkbackground">
+         <ul class="menu">
+           <li><a href="index.HTML">Startsidan</a></li>
+           <li> <a href="rooms.HTML">Rooms</a></li>
+            <li><a href="contact.HTML">Contact</a></li>
+            <li><a href="booking.HtML">Booking</a></li>
+        </ul>
+
+    </section>
+    
+</section>
 
         <section id="rooms">
             
@@ -93,7 +95,7 @@
         
     </section>
     </section>
-       
+       <a href="#top" id="backtotopp">Back to the top</a>
     <script src="code.JS"></script>
         <footer>Copyright</footer>
     
