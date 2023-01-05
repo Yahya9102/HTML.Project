@@ -225,7 +225,7 @@ button{
 
 .menu{
    position: absolute;
-   left: 30%;
+   left: 25%;
    top: 17%;
 }
 
@@ -235,6 +235,7 @@ button{
 #backtotopp{
    display: flex;
    position: fixed;
+   font-size: 20px;
    bottom: 0%;
    right: 8%;
    background-color: rgb(127,141,150);
@@ -319,7 +320,7 @@ body{
   flex-direction: column;
   width: 30%;
   left: 5%;
-  top: 30%;
+  top: 20%;
   height: fit-content;
   
   
@@ -328,17 +329,17 @@ body{
 
 
 #room1a{
-   width: 80%;
+   width: 99%;
 }
 #room2a{
-   width: 80%;
+   width: 99%;
   height: inherit;
 }
 #room3a{
-   width: 80%;
+   width: 99%;
 }
 #room4a{
-   width: 80%;
+   width: 99%;
 }
 
 
