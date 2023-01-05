@@ -39,6 +39,11 @@ function toggleMenu() {
 
 
 
+
+
+
+
+
    document.querySelector('input[type="submit"]').addEventListener('click', function(event) {
     event.preventDefault();  
 
@@ -46,6 +51,8 @@ function toggleMenu() {
 
       document.getElementById('roombooking').style.display = 'none';
       document.getElementById('confirmation').style.display = 'block';
+      
+
     }
   });
   
@@ -53,6 +60,7 @@ function toggleMenu() {
 
     document.getElementById('roombooking').style.display = 'block';
     document.getElementById('confirmation').style.display = 'none';
+    document.querySelector('form').submit();
   });
   
 
