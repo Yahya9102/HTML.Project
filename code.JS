@@ -15,8 +15,6 @@ images.forEach(function(image) {
 
 
 
-
-
 function toggleMenu() {
   var menu = document.querySelector('.menu');
   const opEl = document.getElementById('linkbackground');
@@ -37,41 +35,26 @@ function toggleMenu() {
 
 
 
-
-
-
-
-
-
+  
+  
 
    document.querySelector('input[type="submit"]').addEventListener('click', function(event) {
     event.preventDefault();  
 
     if (document.getElementById('email').checkValidity()) {
-
       document.getElementById('roombooking').style.display = 'none';
       document.getElementById('confirmation').style.display = 'block';
-      
-
+     
+    
     }
   });
-  
-  document.getElementById('confirmation').addEventListener('click', function() {
 
+  document.getElementById('confirmation').addEventListener('click', function() {
     document.getElementById('roombooking').style.display = 'block';
     document.getElementById('confirmation').style.display = 'none';
-    document.querySelector('form').submit();
+    
   });
   
-
-
-  
-
-
-  
-  
-  
-
 
 
 
