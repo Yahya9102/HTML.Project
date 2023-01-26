@@ -250,6 +250,9 @@ button{
 }
 
 
+
+
+
 @media screen and (max-width: 800px){
 
 #backtoptopp{
@@ -257,6 +260,9 @@ button{
   
    
 }
+
+
+
 
    
 button{
@@ -327,6 +333,12 @@ body{
 }
 
 
+#homepageRoom{
+   width: 30%;
+   
+}
+
+
 
 #room1a{
    width: 99%;
@@ -344,9 +356,9 @@ body{
 
 
 #video{
-   top: 25%;
-   left: 5%;
-   width: 30%;
+   top: 10%;
+   right: 5%;
+   width: 15%;
    
   
 }
